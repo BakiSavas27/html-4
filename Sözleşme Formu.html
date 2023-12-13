@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #b{
+            text-align: center;
+        }
+        h3{
+            margin-left: 50px;
+        }
+      
+    </style>
+</head>
+<body>
+    <h2 id="b">BT Tasarım PRogramı Kurulum ve Satış Sözleşmesi </h2>
+    <fieldset>
+        <legend>Sözleşme Onay</legend>
+        <div class="divcheckbox">
+            <input type="checkbox" value="Aşağıdaki bilgilerin doğruluğunu kabul ediyorum ve sözleşmesini onaylıyorum">
+            <label for="asdas">Aşağıdaki bilgilerin doğruluğunu kabul ediyorum ve sözleşmesini onaylıyorum</label>
+        </div>
+        <div><br>
+            <button type="submit">Formu Kaydet</button>
+            <input type="reset" value="Reset">
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Kişisel Bİlgiler</legend>
+        <div class="divForm">
+        <label for="Form GÜvenlik ID">Form Güvenlik ID</label>
+        <input style="margin-left: 20px;" type="text" placeholder="Lütfen ID Giriniz">
+    </div>
+    <div class="divad"><br>
+        <label for="Ad">Ad</label>
+        <input style="margin-left: 120px;" type="text" placeholder="Lütfen Adınızı Giriniz">
+    </div>
+    <div class="divSoyad"><br>
+        <label for="Soyad">Soyad</label>
+        <input style="margin-left: 99px;" type="text" placeholder="Lütfen Soyadınızı Giriniz">
+    </div>
+    <div class="divYas"><br>
+        <label for="Yaş">Yaş</label>
+        <input style="margin-left: 117px;" type="text" placeholder="Lütfen Yaşınızı Giriniz">
+    </div>
+    <div class="divMail"><br>
+        <label for="Mail">Mail Adresi</label>
+        <input style="margin-left: 65px;" type="mail" placeholder="exammpe@examle.com">
+    </div>
+    <div class="File"><br>
+        <label for="File">Fotoğraf Ekle</label>
+        <input style="margin-left: 55px;" type="file">
+    </div>
+    </fieldset>
+    <fieldset>
+        <legend>Diğer Bilgiler</legend>
+        <h3>Buradaki Alanlar Mesleki Deneyimi Kapsar</h3>
+
+        <div class="divdate">
+            <label for="Sektör">Sektöre Giriş Tarihi</label>
+            <input style="margin-left: 65px;" type="date">
+        </div>
+        <div class="radio"><br>
+            <label for="sektördeney">Sektör Deneyimi</label>
+
+            <input type="radio"  style="margin-left: 87px;" name="Sektör Deneyimi" value="1-3yıl" id="abc">
+            <label for="abc">1-3 yıl</label>
+        </div>
+            <div class="radio">
+                <input type="radio" style="margin-left: 200px;"  name="Sektör Deneyimi" value="3-5" id="qwe">
+            <label for="qwe">3-5 yıl</label>
+        </div>
+        <div>
+            <input type="radio" style="margin-left: 200px;"  name="Sektör Deneyimi" value="5-15yıl" id="bnm">
+        <label for="bnm">5-15 yıl</label>
+    </div>
+    <div>
+        <input type="radio" style="margin-left: 200px;"  name="Sektör Deneyimi" value="15 yıl ve üzeri" id="jkl">
+    <label for="jkl">15 yıl ve üzeri</label>
+</div>    
+    
+       <div class="divselect"><br>
+        <label for="programlama">Programlama Dilleri</label>
+        <select style="margin-left: 65px;" name="Programlama Dilleri" id="" multiple size="5">
+        <option value="">python</option>
+        <option value="">javascript</option>
+        <option value="">PHP</option>
+        <option value="">C#</option>
+        <option value="">Java</option>
+        <option value="">ruby</option>
+
+    </select>
+ </div>
+    </fieldset>
+    <fieldset>
+        <legend>Sözleşme Kopyası</legend>
+        <div class="divcv">
+            <textarea name="" id="" cols="50" rows="5">
+Bu söleşme kopyası, yapılan işlemlere dair 
+alıcıyı bilgilendirmek maksadıyla hazırlanmış olup asıl sözleşme metni ile birebir aynıdır. Sözleşme,
+nedeniyle oluşan anlaşmazlıkları çözmek için
+Ticaret Mahkemeleri yetkilidir.Sözleşme ile
+    
+    
+            </textarea>
+        </div>
+    </fieldset>
+       
+    <fieldset>
+        <legend>Mail Listesi</legend>
+        <div class="divradio">
+
+            <label for="cba">Mail Listesine Katılmak <strong>İstiyorum</strong></label>
+            <input type="radio" name="abc" value="Mail Listesine Katılmak <strong><ins>İstemiyorum</ins></strong>" id="abc" checked><br>
+
+            <label for="abc">Mail Listesine Katılmak <strong><ins>İstemiyorum</ins></strong></label>
+            <input type="radio" name="abc" value="Mail Listesine Katılmak <strong><ins>İstemiyorum</ins></strong>" id="abc">
+
+            
+          
+
+
+
+
+
+
+
+
+        </div>
+
+    
+
+
+
+
+
+
+       </fieldset>
+       
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
